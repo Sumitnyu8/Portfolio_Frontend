@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header-bg w-100">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-white fs-1" href="#"><span>S</span>u^^it</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-5">
+              <a class="nav-link active text-white text-capitalize" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white text-capitalize" href="#about">about</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white text-capitalize" href="#services">Services</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white text-capitalize" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white text-capitalize" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 hero-header mt-4">
+            <h2 class="text-end">FullStack developer <span>/</span>Content Createor</h2>
+            <div class="hero-header1 col-12 d-flex align-items-center">
+              <div class="col-8">
+                <h1 class="">Hi,I'm <span>Sumit</span> <br> Mishra from Surat,India</h1>
+              </div>
+              <div class="col-4 dummy-man overflow-hidden h-75">
+                <img src="images/my-image1.jpg" alt="" width="100%" height="50%" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-me d-md-flex d-sm-block">
+            <div class="col-md-4 col-sm-12 about-img">
+              <img src="images/my-image2.jpg" alt="tommy-shelby" class="w-100">
+            </div>
+            <div class="col-md-8 col-sm-12 about-content ms-5 ms-lg-4 ms-md-2 ms-sm-0">
+              <h2 class="text-capitalize">About Me</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nisi. Dicta maiores eos
+                culpa accusamus,
+                placeat, nihil ea aperiam, exercitationem nostrum perferendis error quae consequuntur
+                rem incidunt
+                maxime labore autem!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Magnam, dolor. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Odio, soluta? Lorem ipsum dolor sit
+                amet consectetur
+                adipisicing elit. Hic, ex?</p>
+              <!-- tabs -->
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Skills</button>
+                </li>
+                <li class="nav-item ms-md-5 ms-sm-3" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Experiences</button>
+                </li>
+                <li class="nav-item ms-md-5 ms-sm-3" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Education</button>
+                </li>
+                <!-- <li class="nav-item ms-5" role="presentation">
+                        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+                      </li> -->
+              </ul>
+              <div class="tab-content mt-5" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                  tabindex="0">
+                  <div class="skill-content">
+                    <p><span>Web Developer</span> <br> I do Freelancing </p>
+                    <p><span>Photographer</span> <br> My Hobbie is Photography or Videography</p>
+                    <p><span>Content Creator</span> <br> I create knowledgeful videos on youtube</p>
+
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                  tabindex="0">No Experience</div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                  tabindex="0">I am in 12th now.</div>
+                <!-- <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service section -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-capitalize service-heading">
+            My services
+          </h2>
+          <div class="my-services col-12 mt-5 d-flex flex-wrap justify-content-between">
+            <div class="service-content col-12 col-md-6 col-lg-4 p-3 mt-3">
+              <div class="wrapper col-12 p-5">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-file-earmark-code" viewBox="0 0 16 16">
+                    <path
+                      d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
+                    <path
+                      d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z" />
+                  </svg>
+                </div>
+                <p class="h4 text-capitalize mt-5">
+                  web-development
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit et eligendi ipsa sunt ad
+                  excepturi commodi
+                  nulla, possimus mollitia qui est totam facere quia. Veritatis debitis similique repellat
+                  unde iste.
+                </p>
+                <a href="#">Learn more</a>
+              </div>
+
+            </div>
+
+            <div class="service-content col-12 col-md-6 col-lg-4 p-3 mt-3">
+              <div class="wrapper col-12 p-5">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-phone"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                  </svg>
+                </div>
+                <p class="h4 text-capitalize mt-5">
+                  Photography
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit et eligendi ipsa sunt ad
+                  excepturi commodi
+                  nulla, possimus mollitia qui est totam facere quia. Veritatis debitis similique repellat
+                  unde iste.
+                </p>
+                <a href="#">Learn more</a>
+              </div>
+
+
+            </div>
+
+            <div class="service-content col-12 col-md-6 col-lg-4 p-3 mt-3">
+              <div class="wrapper col-12 p-5">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-tiktok"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+                  </svg>
+                </div>
+                <p class="h4 text-capitalize mt-5">
+                  Content creation
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit et eligendi ipsa sunt ad
+                  excepturi commodi
+                  nulla, possimus mollitia qui est totam facere quia. Veritatis debitis similique repellat
+                  unde iste.
+                </p>
+                <a href="#">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio  -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="work-list col-12">
+            <h2 class="text-capitalize portfolio-heading mb-5">My work</h2>
+            <div class="work-content d-block d-md-flex flex-wrap">
+              <div class="work-items col-12 col-md-6 col-lg-4 mt-5 p-3 position-relative work-items-height">
+                <img src="images/social-media-web.jpg" alt="work1" class="col-12 h-100">
+                <div
+                  class="layer text-center p-5 d-flex flex-column align-items-center justify-content-center position-absolute">
+                  <h3 class="text-capitalize">social media web</h3>
+                  <p class="mt-3 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestiae
+                    mollitia magnam sed autem assumenda dolorum adipisci nesciunt impedit! Possimus!</p>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                      class="bi bi-link-45deg" viewBox="0 0 16 16">
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="work-items col-12 col-md-6 col-lg-4 position-relative  mt-5 p-3 work-items-height">
+                <video src="videos/photography.mp4" class="h-100 w-100" autoplay muted loop></video>
+                <div
+                  class="layer text-center p-5 d-flex flex-column align-items-center justify-content-center position-absolute">
+                  <h3 class="text-capitalize">Photography</h3>
+                  <p class="mt-3 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestiae
+                    mollitia magnam sed autem assumenda dolorum adipisci nesciunt impedit! Possimus!</p>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                      class="bi bi-link-45deg" viewBox="0 0 16 16">
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="work-items col-12 col-md-6 col-lg-4 position-relative  mt-5 p-3 work-items-height">
+                <img src="images/content-work.jpg" alt="work1" class="col-12 h-100">
+                <div
+                  class="layer text-center p-5 d-flex flex-column align-items-center justify-content-center position-absolute">
+                  <h3 class="text-capitalize">Content work</h3>
+                  <p class="mt-3 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestiae
+                    mollitia magnam sed autem assumenda dolorum adipisci nesciunt impedit! Possimus!</p>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                      class="bi bi-link-45deg" viewBox="0 0 16 16">
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact  -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-area col-12 d-flex flex-wrap">
+            <div class="contact-left col-12 col-lg-4 ">
+              <h2 class="text-capitalize contact-heading">Contact me</h2>
+              <div class="contact-email d-flex mt-5">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff004f" class="bi bi-send"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                  </svg>
+                </span>
+                <div class="ms-3">
+                  contactme@gmail.com
+                </div>
+              </div>
+              <div class="contact-phone d-flex mt-3">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff004f" class="bi bi-telephone"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                  </svg>
+                </span>
+                <div class="ms-3">
+                  6353245689
+                </div>
+              </div>
+              <div class="contact-links d-flex mt-4">
+                <ul class="social-list d-flex ps-0">
+                  <li class="social-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                  </li>
+                  <li class="social-item ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path
+                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                    </svg>
+                  </li>
+                  <li class="social-item ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                  </li>
+                  <li class="social-item ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+              <!-- <a href="Application_Form_Account.pdf" download="Application_Form_Account.pdf" class="btn btn-color text-capitalize"> Download-resume</a> -->
+            </div>
+            <div class="contact-right col-12 col-lg-8">
+              <form class="col-12">
+                <input type="text" name="Name" placeholder="Enter your name" required class="col-12">
+                <input type="text" name="Email" placeholder="Enter your Email" required class="col-12">
+                <textarea name="message" id="write-a-message" rows="6" class="col-12"
+                  placeholder="write a message here..."></textarea>
+                <button type="submit" class="btn btn-color">Submit</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- defgjjisdfgdkjas -->
+
+
+
+
+
+    
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
